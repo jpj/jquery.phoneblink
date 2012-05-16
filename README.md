@@ -11,6 +11,8 @@ easily make all the phone numbers on your website blink?
 
 ### How To ###
 
+Just [get the plugin](https://github.com/jpj/jquery.phoneblink) and
+
 ```
 $(".phone").phoneblink();
 ```
