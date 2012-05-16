@@ -24,11 +24,16 @@ $("body").phoneblink();
 
 It's just that simple! And it even works in browsers that foolishly do not support the `<blink>` tag!
 
+### In Action ###
+
+http://jsfiddle.net/joshpauljohnson/p7ZPJ/4/
+
 ### Supported Phone Number Formats ###
 
 * 555-555-1212
 * 1-555-555-1212
 * (555) 555-1212
+* 1-800-DRUIDIA
 
 ### Known Issues ###
 
