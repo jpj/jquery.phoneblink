@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=640" />
+
+    <link rel="stylesheet" href="stylesheets/core.css" media="screen"/>
+    <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)"/>
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css"/>
+
+    <script type="text/javascript" src="javascripts/modernizr.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('#main_content').headsmart()
+      })
+    </script>
+    <title>Jquery.phoneblink by jpj</title>
+  </head>
+
+  <body>
+    <a id="forkme_banner" href="https://github.com/jpj/jquery.phoneblink">View on GitHub</a>
+    <div class="shell">
+
+      <header>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <h1>Jquery.phoneblink</h1>
+            <h2>Make Phone Numbers Blink</h2>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+      </header>
+
+      <section id="downloads">
+        <span class="inner">
+          <a href="https://github.com/jpj/jquery.phoneblink/zipball/master" class="zip"><em>download</em> .ZIP</a><a href="https://github.com/jpj/jquery.phoneblink/tarball/master" class="tgz"><em>download</em> .TGZ</a>
+        </span>
+      </section>
+
+
+      <span class="banner-fix"></span>
+
+
+      <section id="main_content">
+        <h1>jquery.phoneblink</h1>
+
+<p>Make Phone Numbers Blink.</p>
+
+<p>You know how you really love it when phone numbers blink on a webpage? Don't you
+really want to stop and call that phone number? Don't you wish you could
+easily make all the phone numbers on your website blink?</p>
+
+<p><strong>Well now you can!</strong></p>
+
+<h3>How To</h3>
+
+<p>Just <a href="https://github.com/jpj/jquery.phoneblink">get the plugin</a> and</p>
+
+<pre><code>$(".phone").phoneblink();
+</code></pre>
+
+<p>Don't have time to be bothered with figuring out what selectors contain your phone numbers? Do it up!</p>
+
+<pre><code>$("body").phoneblink();
+</code></pre>
+
+<p>It's just that simple! And it even works in browsers that foolishly do not support the <code>&lt;blink&gt;</code> tag!</p>
+
+<h3>In Action</h3>
+
+<p><a href="http://jsfiddle.net/joshpauljohnson/p7ZPJ/5/">http://jsfiddle.net/joshpauljohnson/p7ZPJ/5/</a></p>
+
+<h3>Supported Phone Number Formats</h3>
+
+<ul>
+<li>555-555-1212</li>
+<li>1-555-555-1212</li>
+<li>(555) 555-1212</li>
+<li>1-800-DRUIDIA</li>
+</ul><h3>Known Issues</h3>
+
+<p><em>Doesn't check for previous blink tags</em> so subsequent calls
+(or phone numbers that smartly already had <code>&lt;blink&gt;</code> tags) will
+result in nested blink tags. But what the heck, just gives more blinking.</p>
+
+<p><em>Probably doesn't support international phone numbers</em> as well as
+phone numbers without area codes or formatting out of the norm.</p>
+      </section>
+
+      <footer>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <p>this project by <a href="https://github.com/jpj">jpj</a> can be found on <a href="https://github.com/jpj/jquery.phoneblink">GitHub</a></p>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+        <p>Generated with <a href="http://pages.github.com">GitHub Pages</a> using Merlot</p>
+        <span class="octocat"></span>
+      </footer>
+
+    </div>
+
+    
+  </body>
+</html>
