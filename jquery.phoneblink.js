@@ -24,7 +24,7 @@
 			}));
 
 			if (!hasBlinkSupport) {
-				blink($(this));
+				blink($(this).find("blink"));
 			}
 		});
 	};
