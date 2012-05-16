@@ -15,6 +15,13 @@ easily make all the phone numbers on your website blink?
 $(".phone").phoneblink();
 ```
 
+Don't have time to be bothered with figuring out what selectors contain your phone numbers? Do it up!
+
+
+```
+$("body").phoneblink();
+```
+
 It's just that simple! And it even works in browsers that foolishly do not support the `<blink>` tag!
 
 ### Supported Phone Number Formats ###
