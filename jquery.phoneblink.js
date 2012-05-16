@@ -19,7 +19,7 @@
 
 	$.fn.phoneblink = function() {
 		return this.each(function() {
-			$(this).html($(this).html().replace(/[1]{0,1}[-]{0,1}[\(]{0,1}[0-9]{3}[\)]{0,1}[ ]{0,1}[-]{0,1}[0-9]{3}-[0-9]{4}/g, function(phone) {
+			$(this).html($(this).html().replace(/[1]{0,1}[-]{0,1}[\(]{0,1}[0-9]{3}[\)]{0,1}[ ]{0,1}[-]{0,1}[0-9]{3}-[0-9]{4}|[1]{0,1}[-]{0,1}[\(]{0,1}[0-9]{3}[\)]{0,1}[ ]{0,1}[-]{0,1}[a-zA-Z]{7}/g, function(phone) {
 				return '<blink>'+phone+'</blink>';
 			}));
 
