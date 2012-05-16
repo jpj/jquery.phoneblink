@@ -26,7 +26,7 @@ It's just that simple! And it even works in browsers that foolishly do not suppo
 
 ### In Action ###
 
-http://jsfiddle.net/joshpauljohnson/p7ZPJ/4/
+http://jsfiddle.net/joshpauljohnson/p7ZPJ/5/
 
 ### Supported Phone Number Formats ###
 
